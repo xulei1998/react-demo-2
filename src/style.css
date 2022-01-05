@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background: rgb(196, 193, 193);
+  padding: 10px;
+  width: 600px;
+  height: auto;
+}
+.Son1 {
+  background: yellow;
+  padding: 10px;
+}
+.Son2 {
+  background: rgb(179, 179, 4);
+  padding: 10px;
+}
