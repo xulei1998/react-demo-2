@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./style.css";
+import App1 from './App1';
+import App2 from './App2';
+
 function  App(){
   return(
     <div className='App'>
@@ -10,7 +13,7 @@ function  App(){
     </div>
   )
 }
-/* 函数组件 */
+// 函数组件 
 function Son1(props){
   const [n,setN]=React.useState(0)
   return (
@@ -20,7 +23,7 @@ function Son1(props){
     </div>
   )
 }
-/*类组件  */
+// 类组件  
 class Son2 extends React.Component{
   constructor(){
     super()
@@ -40,3 +43,5 @@ class Son2 extends React.Component{
 }
 
 ReactDOM.render(<App />,document.getElementById('root'));
+ReactDOM.render(<App1 />,document.getElementById('root1'));
+ReactDOM.render(<App2 />,document.getElementById('root2'));
